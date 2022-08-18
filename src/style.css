@@ -1,0 +1,160 @@
+a.nav-link {
+  color: rgb(151, 5, 151);
+}
+
+a.nav-link:hover {
+  color: rgb(182, 182, 182);
+  font-weight: bolder;
+}
+
+.aling-center {
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+  
+  background-color: var(--main-background);
+  border-radius: 1rem;
+}
+
+#btnInserir, #btnEditar, #btnExcluir {
+  background-color: rgb(151, 5, 151);
+  color: white;
+  font-weight: bolder;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#btnInserir:hover, #btnEditar:hover, #btnExcluir:hover {
+  background-color: rgb(76, 12, 76);
+  color: white;
+}
+
+.btn-primary {
+  background-color: rgb(151, 5, 151);
+  color: white;
+  border-color: rgb(151, 5, 151);
+  font-weight: bolder;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.btn-primary:hover {
+  background-color: rgb(76, 12, 76);
+  color: white;
+}
+
+.botaoNovaTarefa {
+  text-align: left;
+}
+
+.coluna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  
+  background-color: var(--main-background);
+  border-radius: 1rem;
+}
+
+div.col {
+  font-size: 2rem;
+
+  border-color: black;
+  border-radius: 1rem;
+
+  background-color: rgb(0, 0, 0);
+  color: white;
+
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.drop-shadow{
+  filter: drop-shadow(5px 0px 4px rgba(151, 5, 151, 0.516));
+}
+
+
+h4 {
+  margin-bottom: 15px;
+}
+
+h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+img {
+  margin: 5%;
+  width: 70%;
+}
+
+#introducao > h1 {
+  font-size: 2.5rem;
+  align-items: center;
+
+}
+
+input, select {
+  display: block;
+
+  margin-top: 5px;
+  margin-bottom: 10px;
+
+  width: 50px;
+}
+
+.mt-5.mb-5 {
+  text-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+
+  padding: 10px 25%;
+
+  background-color: rgb(246, 246, 246);
+
+  margin-bottom: 20px;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navbar-brand {
+  color: black;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.navbar-brand:hover {
+  color: rgb(151, 5, 151);
+}
+
+.navbar > .navbar-link:last-of-type {
+  margin-left: auto;
+}
+
+.nav-tabs {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+
+  align-self: center;
+
+  font-size: 1.5rem;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  margin-bottom: 20px;
+}
+
+#tabela, #tabelaContatos{
+  width: 100%;
+  text-align: center;
+}
